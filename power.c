@@ -10,7 +10,8 @@ int main()
     return 0;
 }
 
-int pwr(int n, int m)                /*to get n raise to m using function*/
+
+int pwr(int n, int m)                /*function pwr use to get n raise to m using function*/
 {
     int i,a;
     a=n;
