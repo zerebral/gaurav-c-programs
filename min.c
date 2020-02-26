@@ -3,7 +3,7 @@ int main()
 {
 int n, i, min;
 int arr[100];
-printf("How many numbers you want to caompare=");
+printf("For how many numbers you want to calculate minimum = ");
 scanf("%d", &n);
 for(i = 0;i < n; i++)
 {
@@ -15,13 +15,7 @@ for(i = 1; i < n; i++)
 {
     if (min > arr[i])
     min = arr[i];
-    else
-    {
-        min = min;
-    }
-
     
-   
 }
 printf("Minimum no is %d", min);
 return 0;
